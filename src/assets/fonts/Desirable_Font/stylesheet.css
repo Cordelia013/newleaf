@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Desirable Sans texture';
+    src: url('DesirableSanstexture.eot');
+    src: local('DesirableSanstexture'),
+        /* url('DesirableSanstexture.eot?#iefix') format('embedded-opentype'),
+        url('DesirableSanstexture.woff2') format('woff2'),
+        url('DesirableSanstexture.woff') format('woff'), */
+        url('DesirableSanstexture.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Desirable Brust Texture';
+    src: url('DesirableBrustTexture.eot');
+    src: local('DesirableBrustTexture'),
+        /* url('DesirableBrustTexture.eot?#iefix') format('embedded-opentype'),
+        url('DesirableBrustTexture.woff2') format('woff2'),
+        url('DesirableBrustTexture.woff') format('woff'), */
+        url('DesirableBrustTexture.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

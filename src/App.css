@@ -1,0 +1,16 @@
+#root {
+ 
+  margin: 40px 74px;
+}
+
+body {
+  /* max-width: 1480px; */
+  width: 100vw;
+  background: hsla(0, 0%, 4%, 1);
+  margin: auto;
+   color: hsla(0, 0%, 89%, 1); 
+
+}
+
+
+
