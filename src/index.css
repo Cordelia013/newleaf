@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer utilities {
+    .stroke-2 {
+    -webkit-text-stroke: 2px;
+  }
+  .stroke-black {
+    -webkit-text-stroke-color: #E4E4E4;
+  }
   /* Styles pour les écrans extra-small (xs) */
   @media (max-width: 639px) {
     .xs\:text-4xl {

@@ -1,18 +1,20 @@
 import "./App.css";
 import Timer from "./components/Timer";
+import CarouselSection from "./sections/carousel/CarouselSection";
 import DateSection from "./sections/dates/DateSection";
-import Description from "./sections/description/Description";
+import DescriptionSection from "./sections/description/DescriptionSection";
 import HeroSection from "./sections/hero/HeroSection";
 
 function App() {
   return (
     <>
       <div className="min-h-screen ">
-        <Timer  />
+        <Timer />
         <HeroSection />
         <DateSection />
-        <Description />
       </div>
+      <DescriptionSection />
+     <CarouselSection /> 
     </>
   );
 }

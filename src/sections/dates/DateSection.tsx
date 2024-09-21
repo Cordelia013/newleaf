@@ -7,12 +7,15 @@ function DateSection() {
       <section className="">
         <div className="container mx-auto px-4 ">
           <div className="">
-            <img
-              className="w-[50%] h-full mx-auto mb-8 xs:hidden sm:block absolute -z-10 right-0"
-              src="src/assets/img2.jpg"
-              alt="bg-artiste-hero"
-            />
-            <h2 className="font-Desirable-Sans xs:text-5xl sm:text-7xl md:text-9xl lg:text-[14rem] -tracking-tighter pt-32 mb-10 ">
+            <div className="aspect-2 mx-auto mb-8 xs:hidden sm:block absolute -z-10 right-0">
+              <img
+                className="w-full h-auto" 
+                src="src/assets/images/img2.jpg"
+                alt="bg-artiste-hero"
+              />
+            </div>
+
+            <h2 className="font-Desirable-Sans xs:text-5xl sm:text-7xl md:text-9xl lg:text-[16rem] -tracking-tighter pt-48 mb-14 ">
               dates
             </h2>
 

@@ -1,19 +1,18 @@
 import ScrollAnimation from "../../components/ScrollAnimation";
 
-
 function HeroSection() {
   return (
     <>
-      <section className="mb-40 relative -top-52">
+      <section className=" relative -top-52">
         <div className="container mx-auto px-4">
           <img
             className="absolute top-0 left-0 right-0 bottom-0 m-auto -z-10"
             src="src/assets/img1.jpg"
             alt="bg-artiste-hero"
           />
-          
+
           <div className="">
-            <header className="  flex justify-between items-center ">https://gitlab.com/btow1/NEwleaf.git
+            <header className="  flex justify-between items-center ">
               <img
                 src="src/assets/NewLeaf-logo.svg"
                 width="80px"
@@ -31,7 +30,7 @@ function HeroSection() {
 
             <h1 className="font-Desirable-Sans text-[16rem] leading-none mt-80">
               New Leaf
-              <br />
+              <br />{" "}
               <span className="font-Desirable-Brust text-center text-[#CC001E] text-8xl block -mt-10">
                 World Tour
               </span>
