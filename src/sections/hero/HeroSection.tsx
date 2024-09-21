@@ -1,5 +1,6 @@
 import ScrollAnimation from "../../components/ScrollAnimation";
 
+
 function HeroSection() {
   return (
     <>
@@ -7,21 +8,21 @@ function HeroSection() {
         <div className="container mx-auto px-4">
           <img
             className="absolute top-0 left-0 right-0 bottom-0 m-auto -z-10"
-            src="src/assets/img1.jpg"
+            src="public/assets/img1.jpg"
             alt="bg-artiste-hero"
           />
 
           <div className="">
             <header className="  flex justify-between items-center ">
               <img
-                src="src/assets/NewLeaf-logo.svg"
+                src="public/assets/NewLeaf-logo.svg"
                 width="80px"
                 height="60px"
                 alt="New Leaf Logo"
               />
               <img
                 className="relative right-64 "
-                src="src/assets/images/language/France-flat.svg"
+                src="public/assets/images/language/France-flat.svg"
                 width="24px"
                 height="24px"
                 alt="icon-france-flat"
@@ -37,7 +38,7 @@ function HeroSection() {
             </h1>
 
             <div className="flex flex-col items-center gap-2 mt-6">
-              {/* <img src="src/assets/Scroll.svg" alt="icone scrollHero" /> */}
+              {/* <img src="public/assets/Scroll.svg" alt="icone scrollHero" /> */}
               <ScrollAnimation />
               <p className="text-xs">Défiler vers le bas </p>
             </div>

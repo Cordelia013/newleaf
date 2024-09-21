@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animationData from "../assets/Defiler-vers-le-bas-New-Leaf (2).json";
+import animationData from "../../public/assets/Defiler-vers-le-bas-New-Leaf (2).json";
 
 const ScrollAnimation = () => {
   const style = {

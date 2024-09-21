@@ -5,7 +5,7 @@ function DescriptionSection() {
         <div className="h-[391px] pt-10 flex-col justify-center items-start inline-flex">
           <img
             className="w-48 h-[268px] origin-top-left rotate-[4deg] bg-neutral-950/20"
-            src="src/assets/images/img3.jpg"
+            src="public/assets/images/img3.jpg"
             alt="bg-artiste-hero"
           />
         </div>
@@ -24,7 +24,7 @@ function DescriptionSection() {
         <div className="h-[368px] pt-10 flex justify-center items-center ">
           <img
             className="w-48 origin-top-left rotate-6 bg-neutral-950/20"
-            src="src/assets/images/img4.jpg"
+            src="public/assets//images/img4.jpg"
             alt="bg-artiste-concert-piano"
           />
         </div>
@@ -32,7 +32,7 @@ function DescriptionSection() {
         <div className="h-[492px] mt-56 flex justify-start items-center ">
           <img
             className="w-64 origin-top-left -rotate-2 bg-neutral-950/20"
-            src="src/assets/images/img5.jpg"
+            src="public/assets/images/img5.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -40,7 +40,7 @@ function DescriptionSection() {
         <div className="h-[407px] mt-56 mr-80 flex justify-end items-center ">
           <img
             className="w-64 origin-top-left rotate-2 bg-neutral-950/20"
-            src="src/assets/images/img6.jpg"
+            src="public/assets/images/img6.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -59,7 +59,7 @@ function DescriptionSection() {
         <div className="h-[407px] mt-56 flex justify-end items-center ">
           <img
             className="w-64 origin-top-left -rotate-[6deg] bg-neutral-950/20"
-            src="src/assets/images/img7.jpg"
+            src="public/assets/images/img7.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -82,7 +82,7 @@ function DescriptionSection() {
         <div className="h-[368px] pt-10 flex justify-center items-center relative bottom-40 -z-10">
           <img
             className="w-96 "
-            src="src/assets/images/img8.png"
+            src="public/assets/images/img8.png"
             alt="bg-artiste-concert-piano"
           />
         </div>
@@ -96,7 +96,7 @@ function DescriptionSection() {
           </span>
         </h1>
         <div className=" w-[341px] opacity-60  text-xs font-['Montserrat'] mt-8  ">
-          Le Lorem Ipsum est simplement du faux texte employé dans la
+          Le Lorem Ipsum est simplement du faux texte employé dans la
           composition et la mise en page avant impression. Le Lorem Ipsum est le
           faux texte standard de l'imprimerie depuis les années 1500.
         </div>
@@ -104,7 +104,7 @@ function DescriptionSection() {
         <div className="relative -top-60  flex justify-end items-center ">
           <img
             className="w-80  bg-neutral-950/20"
-            src="src/assets/images/img9.png"
+            src="public/assets/images/img9.png"
             alt="bg-artiste-pianiste"
           />
         </div>
