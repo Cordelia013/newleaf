@@ -7,9 +7,14 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "build:css": "tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+    "build:css": "tailwindcss -i ./src/index.css -o ./src/output.css --watch",
+    "vercel": "vercel --prod",
+    "status": "vercel inspect",
+    "remove": "vercel remove",
+    "deploy": "vercel --prod --yes"
   },
   "dependencies": {
+    "lenis": "^1.1.13",
     "lottie-react": "^2.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

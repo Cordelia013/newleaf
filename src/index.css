@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-    .stroke-2 {
+  .stroke-2 {
     -webkit-text-stroke: 2px;
   }
   .stroke-black {
-    -webkit-text-stroke-color: #E4E4E4;
+    -webkit-text-stroke-color: #e4e4e4;
   }
   /* Styles pour les écrans extra-small (xs) */
   @media (max-width: 639px) {
@@ -74,27 +74,35 @@
 }
 
 @font-face {
-    font-family: 'Desirable-sans';
-    src: url('DesirableSanstexture.eot');
-    src: local('DesirableSanstexture'),
-        url('./assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/Desirable_Font/DesirableSanstexture.woff2') format('woff2'),
-        url('./assets/fonts/Desirable_Font/DesirableSanstexture.woff') format('woff'),
-        url('./assets/fonts/Desirable_Font/DesirableSanstexture.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Desirable-sans";
+  src: url("DesirableSanstexture.eot");
+  src: local("DesirableSanstexture"),
+    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix")
+      format("embedded-opentype"),
+    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2")
+      format("woff2"),
+    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff")
+      format("woff"),
+    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Desirable-Brust';
-    src: url('DesirableBrustTexture.eot');
-    src: local('DesirableBrustTexture'),
-        url('./assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix') format('embedded-opentype'),
-        url('./assets/fonts/Desirable_Font/DesirableBrustTexture.woff2') format('woff2'),
-        url('./assets/fonts/Desirable_Font/DesirableBrustTexture.woff') format('woff'),
-        url('./assets/fonts/Desirable_Font/DesirableBrustTexture.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Desirable-Brust";
+  src: url("DesirableBrustTexture.eot");
+  src: local("DesirableBrustTexture"),
+    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
+      format("embedded-opentype"),
+    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff2")
+      format("woff2"),
+    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff")
+      format("woff"),
+    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

@@ -6,6 +6,18 @@ interface TimerProps {
 }
 
 const Timer: React.FC<TimerProps> = ({ interval = 1000 }) => {
+  const [opacity, setOpacity] = useState(1); // État pour l'opacité
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    setOpacity(scrollY > 0 ? 0.6 : 1); // Modifie l'opacité en fonction du défilement
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   // Définissons la date limite comme une constante en dehors du composant
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const DEADLINE: Date = new Date("2025-03-01T00:00:00");
@@ -16,7 +28,7 @@ const Timer: React.FC<TimerProps> = ({ interval = 1000 }) => {
     seconds: 0,
   });
 
-  // Utilisons useCallback pour mémoriser la fonction updateTimer
+  
   const updateTimer = useCallback(() => {
     const now = new Date().getTime();
     const distance = DEADLINE.getTime() - now;
@@ -34,12 +46,12 @@ const Timer: React.FC<TimerProps> = ({ interval = 1000 }) => {
   useEffect(() => {
     const timerId = setInterval(updateTimer, interval);
     return () => clearInterval(timerId);
-  }, [interval, updateTimer]); // Ajoutons updateTimer aux dépendances
+  }, [interval, updateTimer]); 
 
   
   return (
-    <div className="sticky top-10 " >
-      <div className=" flex flex-col  text-5xl text-right font-semibold  gap-y-5 ">
+    <div className="sticky top-14" style={{ opacity }}> 
+      <div className=" flex flex-col  text-5xl text-right font-bold  gap-y-5 ">
         <div>
           {time.days}
           <span className="text-xs text-[#CC001E]"> Day</span>{" "}
