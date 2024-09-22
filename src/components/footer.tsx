@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function Footer() {
   return (
@@ -30,7 +30,7 @@ function Footer() {
             </div>
           </div>
           <div className="ml-96">
-            <img src="/public/assets/NewLeaf-logo.svg" />
+            <img src="/assets/NewLeaf-logo.svg" />
           </div>
         </div>
       </div>
