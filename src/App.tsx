@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer";
 import Timer from "./components/Timer";
 import CarouselSection from "./sections/carousel/CarouselSection";
 import DateSection from "./sections/dates/DateSection";
@@ -14,7 +15,8 @@ function App() {
         <DateSection />
       </div>
       <DescriptionSection />
-     <CarouselSection /> 
+      <CarouselSection />
+      <Footer />
     </>
   );
 }

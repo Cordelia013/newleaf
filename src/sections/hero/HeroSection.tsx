@@ -8,14 +8,14 @@ function HeroSection() {
         <div className="container mx-auto px-4">
           <img
             className="absolute -top-32 left-0 right-0 bottom-0 m-auto -z-10"
-            src="/src/assets/images/img1.jpg"
+            src="/assets/images/img1.jpg"
             alt="bg-artiste-hero"
           />
 
           <div className="">
             <header className="flex justify-between items-center relative -top-20">
               <img
-                src="/src/assets/NewLeaf-logo.svg"
+                src="/assets/NewLeaf-logo.svg"
                 width="80px"
                 height="60px"
                 alt="New Leaf Logo"

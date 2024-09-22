@@ -10,7 +10,7 @@ function DateSection() {
             <div className="aspect-2 mx-auto mb-8 xs:hidden sm:block absolute -z-10 right-0">
               <img
                 className="w-full h-auto"
-                src="/src/assets/images/img2.jpg"
+                src="/assets/images/img2.jpg"
                 alt="bg-artiste-hero"
               />
             </div>

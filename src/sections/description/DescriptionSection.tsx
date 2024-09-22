@@ -1,11 +1,14 @@
 function DescriptionSection() {
+
+
+  
   return (
     <section className="py-32 mt-96">
       <div className="container px-4 ">
         <div className="h-[391px] pt-10 flex-col justify-center items-start inline-flex">
           <img
             className="w-48 h-[268px] origin-top-left rotate-[4deg] bg-neutral-950/20"
-            src="/src/assets/images/img3.jpg"
+            src="/assets/images/img3.jpg"
             alt="bg-artiste-hero"
           />
         </div>
@@ -24,7 +27,7 @@ function DescriptionSection() {
         <div className="h-[368px] pt-10 flex justify-center items-center ">
           <img
             className="w-48 origin-top-left rotate-6 bg-neutral-950/20"
-            src="/src/assets//images/img4.jpg"
+            src="/assets//images/img4.jpg"
             alt="bg-artiste-concert-piano"
           />
         </div>
@@ -32,7 +35,7 @@ function DescriptionSection() {
         <div className="h-[492px] mt-56 flex justify-start items-center ">
           <img
             className="w-64 origin-top-left -rotate-2 bg-neutral-950/20"
-            src="/src/assets/images/img5.jpg"
+            src="/assets/images/img5.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -40,7 +43,7 @@ function DescriptionSection() {
         <div className="h-[407px] mt-56 mr-80 flex justify-end items-center ">
           <img
             className="w-64 origin-top-left rotate-2 bg-neutral-950/20"
-            src="/src/assets/images/img6.jpg"
+            src="/assets/images/img6.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -59,7 +62,7 @@ function DescriptionSection() {
         <div className="h-[407px] mt-56 flex justify-end items-center ">
           <img
             className="w-64 origin-top-left -rotate-[6deg] bg-neutral-950/20"
-            src="/src/assets/images/img7.jpg"
+            src="/assets/images/img7.jpg"
             alt="bg-artiste-pianiste"
           />
         </div>
@@ -82,7 +85,7 @@ function DescriptionSection() {
         <div className="h-[268px] pt-10 -top-60 flex justify-center items-center relative bottom-28 -z-10">
           <img
             className="w-96 "
-            src="/src/assets/images/img8.png"
+            src="/assets/images/img8.png"
             alt="bg-artiste-concert-piano"
           />
         </div>
@@ -104,7 +107,7 @@ function DescriptionSection() {
         <div className="relative -top-60  flex justify-end items-center ">
           <img
             className="w-[680px]  bg-neutral-950/20"
-            src="/src/assets/images/img9.png"
+            src="/assets/images/img9.png"
             alt="bg-artiste-pianiste"
           />
         </div>

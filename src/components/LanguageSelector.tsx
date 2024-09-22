@@ -9,22 +9,22 @@ interface Language {
 const languages: Language[] = [
   {
     code: "fr",
-    src: "/src/assets/images/language/France-flat.svg",
+    src: "/assets/images/language/France-flat.svg",
     alt: "icon-france-flat",
   },
   {
     code: "en",
-    src: "/src/assets/images/language/UK-flat.svg",
+    src: "/assets/images/language/UK-flat.svg",
     alt: "icon-uk-flat",
   },
   {
     code: "jp",
-    src: "/src/assets/images/language/Japan-flat.svg",
+    src: "/assets/images/language/Japan-flat.svg",
     alt: "icon-japan-flat",
   },
   {
     code: "de",
-    src: "/src/assets/images/language/Germany-flat.svg",
+    src: "/assets/images/language/Germany-flat.svg",
     alt: "icon-germany-flat",
   },
 ];
