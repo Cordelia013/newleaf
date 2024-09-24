@@ -1,5 +1,3 @@
-
-
 function Footer() {
   return (
     <>
@@ -15,7 +13,7 @@ function Footer() {
               </span>
             </div>
             <div className="self-stretch text-[#e4e4e4] text-sm font-normal font-['Montserrat']">
-              Copyright © 2024 Agency Cordélia Virgile.
+              Copyright © 2024 - projet fictif - Agency Cordélia Virgile.
             </div>
           </div>
           <div className="text-[#e4e4e4] text-sm font-normal font-['Montserrat']">
