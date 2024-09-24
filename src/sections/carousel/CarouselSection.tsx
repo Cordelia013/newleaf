@@ -1,23 +1,23 @@
-import { useEffect, useRef } from "react"; // Ajout de useEffect et useRef
+import { useEffect, useRef } from "react"; 
 
 function CarouselSection() {
-  const carouselRef = useRef<HTMLDivElement>(null); // Référence au carousel
+  const carouselRef = useRef<HTMLDivElement>(null); 
 
   useEffect(() => {
     const interval = setInterval(() => {
       if (carouselRef.current) {
         const firstChild = carouselRef.current.firstElementChild;
         if (firstChild) {
-          carouselRef.current.appendChild(firstChild); // Déplace le premier enfant à la fin
+          carouselRef.current.appendChild(firstChild);
         }
       }
-    }, 5000); // Intervalle de 3 secondes
+    }, 5000); 
 
-    return () => clearInterval(interval); // Nettoyage de l'intervalle
+    return () => clearInterval(interval); 
   }, []);
 
   return (
-    <div className="w-full overflow-hidden xl:max-w-7xl">
+    <div className="w-full overflow-hidden xl:max-w-7xl -mt-80">
       <div ref={carouselRef} className="flex space-x-4 p-4 min-w-max">
         <img
           src="/assets/images/img10.png"

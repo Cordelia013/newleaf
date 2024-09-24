@@ -14,7 +14,8 @@ function App() {
         <HeroSection />
         <DateSection />
       </div>
-      <DescriptionSection />
+      <DescriptionSection /> 
+    
       <CarouselSection />
       <Footer />
     </>
