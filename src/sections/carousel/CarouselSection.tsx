@@ -18,7 +18,7 @@ function CarouselSection() {
 
   return (
     <div className="w-full overflow-hidden xl:max-w-7xl -mt-80">
-      <div ref={carouselRef} className="flex space-x-4 p-4 min-w-max">
+      <div ref={carouselRef} className="flex space-x-5 p-4 min-w-max">
         <img
           src="/assets/images/img10.png"
           alt="Image 1"
