@@ -1,46 +1,40 @@
 @font-face {
-  font-family: "Desirable-sans";
+  font-family: "DesirableSanstexture";
 
-  src: url("DesirableSanstexture.eot");
+  src: local("DesirableSanstexture");
 
-  src: local("DesirableSanstexture"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix")
-      format("embedded-opentype"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2")
-      format("woff2"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff")
-      format("woff"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.ttf")
-      format("truetype");
+  /* Supprimez les lignes suivantes pour éviter de charger des fichiers en ligne */
+  /* src: url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix") format("embedded-opentype"),
+  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2") format("woff2"),
+  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff") format("woff"),
+  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.ttf") format("truetype"); */
 
   font-weight: normal;
-
   font-style: normal;
-
   font-display: swap;
 }
 
 @font-face {
   font-family: "Desirable-Brust";
 
-  src: url("DesirableBrustTexture.eot");
+ 
 
-  src: local("DesirableBrustTexture"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
+  src: local("DesirableBrustTexture");
+    /* url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
       format("embedded-opentype"),
     url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff2")
       format("woff2"),
     url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff")
       format("woff"),
     url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.ttf")
-      format("truetype");
+      format("truetype"); */
 
   font-weight: normal;
 
   font-style: normal;
 
   font-display: swap;
-}
+} */
 
 *,
 ::before,

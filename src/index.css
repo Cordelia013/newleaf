@@ -76,7 +76,7 @@
 
 @font-face {
   font-family: "Desirable-sans";
-  src: url("DesirableSanstexture.eot");
+ 
   src: local("DesirableSanstexture"),
     url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix")
       format("embedded-opentype"),
@@ -93,7 +93,7 @@
 
 @font-face {
   font-family: "Desirable-Brust";
-  src: url("DesirableBrustTexture.eot");
+ 
   src: local("DesirableBrustTexture"),
     url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
       format("embedded-opentype"),
