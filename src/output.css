@@ -4,11 +4,9 @@
   src: local("DesirableSanstexture");
 
   /* Supprimez les lignes suivantes pour éviter de charger des fichiers en ligne */
-  /* src: url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix") format("embedded-opentype"),
-  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2") format("woff2"),
-  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff") format("woff"),
-  url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.ttf") format("truetype"); */
-
+  src: url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2") format("woff2"),
+       url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff") format("woff");
+  
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,24 +15,16 @@
 @font-face {
   font-family: "Desirable-Brust";
 
- 
-
   src: local("DesirableBrustTexture");
-    /* url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
-      format("embedded-opentype"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff2")
-      format("woff2"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff")
-      format("woff"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.ttf")
-      format("truetype"); */
+  src: url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff2") format("woff2"),
+       url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff") format("woff");
 
   font-weight: normal;
 
   font-style: normal;
 
   font-display: swap;
-} */
+} 
 
 *,
 ::before,

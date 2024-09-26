@@ -60,8 +60,8 @@
   @media (min-width: 1480px) {
     .xl\:max-w-7xl {
       max-width: 1480px;
-      margin-left: auto; 
-      margin-right: auto; 
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -72,38 +72,4 @@
     }
     /* Ajoutez d'autres classes 2xl ici */
   }
-}
-
-@font-face {
-  font-family: "Desirable-sans";
- 
-  src: local("DesirableSanstexture"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.eot?#iefix")
-      format("embedded-opentype"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff2")
-      format("woff2"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.woff")
-      format("woff"),
-    url(".../../assets/fonts/Desirable_Font/DesirableSanstexture.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Desirable-Brust";
- 
-  src: local("DesirableBrustTexture"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.eot?#iefix")
-      format("embedded-opentype"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff2")
-      format("woff2"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.woff")
-      format("woff"),
-    url(".../../assets/fonts/Desirable_Font/DesirableBrustTexture.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
